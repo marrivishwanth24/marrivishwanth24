@@ -21,7 +21,7 @@ M.Eng. Computer Science @ University of Cincinnati (May 2026) | GPA 3.9
 **Software Engineer Intern — Kontaktsource** *(Aug 2025 – Apr 2026)*
 Built Python backend services, REST API integrations with HubSpot CRM, and React/TypeScript frontend features in production. Implemented OAuth2/JWT authentication and AWS Lambda deployments.
 
-**Full Stack Developer — RetailNext Solutions** *(Jun 2022 – May 2024)*
+**Full Stack Developer — Infotact Solutions** *(Jun 2022 – May 2024)*
 Built high-availability MERN stack applications supporting 500+ concurrent users. Deployed containerized microservices on AWS EC2 with Docker and GitHub Actions CI/CD.
 
 ## 📌 Featured Projects
