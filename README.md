@@ -40,7 +40,7 @@ Enhanced a multi-tenant client operations platform using the MERN stack. Built r
 **Master of Engineering in Computer Science** — University of Cincinnati *(Aug 2024 – May 2026)*
 
 ## 📫 Contact
-- Email: marrivishwanth24@gmail.com
+- Email: marrivishwanth06@gmail.com
 - Phone: +1 (513) 348-0777
 - Location: Dallas, TX
 - LinkedIn: [linkedin.com/in/vishwanthmarri](https://linkedin.com/in/vishwanthmarri)
