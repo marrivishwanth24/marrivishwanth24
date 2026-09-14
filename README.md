@@ -1,33 +1,46 @@
-    # Hi, I'm Vishwanth Marri 👋
+# Hi, I'm Vishwanth Marri 👋
 
-M.Eng. Computer Science @ University of Cincinnati (May 2026) | GPA 3.9
+Software Engineer @ Salesforce | M.Eng. Computer Science @ University of Cincinnati (2024–2026)
 
 ## 🛠️ What I Build
-- **AI Agent Systems** — Production RAG pipelines using Claude API, LangChain, pgvector
-- **Full-Stack Web Apps** — React, TypeScript, Node.js, FastAPI, Spring Boot
-- **Cloud Infrastructure** — AWS (EC2, S3, RDS, Lambda), Docker, GitHub Actions CI/CD
+- **AI Agent Systems** — Production RAG pipelines using Claude API, LangChain, LangGraph, MCP, pgvector
+- **Full-Stack Web Apps** — React, Next.js, TypeScript, FastAPI, Node.js, Express.js
+- **Cloud Infrastructure** — AWS (EC2, S3, RDS, Lambda), Docker, Kubernetes, Terraform, CI/CD
 
 ## 🔧 Tech Stack
 **Languages:** Python · Java · JavaScript · TypeScript · SQL
 
-**Frameworks:** FastAPI · React · Node.js · Spring Boot · Flask
+**Frontend:** React.js · Next.js · Tailwind CSS · Component-Based Architecture
 
-**AI/ML:** Claude API · LangChain · RAG Pipelines · pgvector · Scikit-learn
+**Backend:** FastAPI · Node.js · Express.js · REST APIs · GraphQL · OAuth 2.0 · JWT · Microservices
 
-**Cloud:** AWS · Docker · GitHub Actions · PostgreSQL · MongoDB
+**AI/Generative AI:** LLMs · Claude API · LangChain · LangGraph · Model Context Protocol (MCP) · RAG · Vector Search · AI Agents · Prompt Engineering
+
+**Databases:** PostgreSQL · MongoDB · MySQL · Redis · Elasticsearch · pgvector
+
+**Cloud & DevOps:** AWS · Docker · Kubernetes · Terraform · GitHub Actions · CI/CD
+
+**Testing:** Pytest · Jest · Unit/Integration Testing · Test Automation
 
 ## 💼 Experience
 
-**Software Engineer Intern — Kontaktsource** *(Aug 2025 – Apr 2026)*
-Built Python backend services, REST API integrations with HubSpot CRM, and React/TypeScript frontend features in production. Implemented OAuth2/JWT authentication and AWS Lambda deployments.
+**Software Engineer — Salesforce** *(Jan 2026 – Present)*
+Built scalable CRM automation and onboarding platforms with Python, REST APIs, and OAuth 2.0. Engineered webhook workflows for bi-directional data sync, reducing sync errors by 90%. Integrated Generative AI into onboarding workflows and built AI-enabled React/TypeScript interfaces, cutting frontend load times by 40%.
 
-**Full Stack Developer — Infotact Solutions** *(Jun 2022 – May 2024)*
-Built high-availability MERN stack applications supporting 500+ concurrent users. Deployed containerized microservices on AWS EC2 with Docker and GitHub Actions CI/CD.
+**Software Engineer Intern — Kontaktsource** *(Aug 2025 – Dec 2025)*
+Built internal data-validation tools with Node.js and FastAPI, reducing incorrect data entries by ~20%. Engineered backend APIs and React-based frontend workflows for membership and event management systems.
+
+**Full Stack Developer — Virtusa** *(Jun 2022 – Jul 2024)*
+Enhanced a multi-tenant client operations platform using the MERN stack. Built resilient Node.js/Express.js backend services with structured error handling and async processing. Containerized services with Docker and automated AWS EC2 deployments via GitHub Actions, cutting release cycles by 35%. Optimized PostgreSQL performance through indexing, query optimization, and Redis caching.
 
 ## 📌 Featured Projects
-- 🤖 [RAG Agent Platform](https://github.com/marrivishwanth24/rag-agent-platform) — AI document Q&A system using Claude API + pgvector
-- 🛒 [E-Commerce Platform](https://github.com/marrivishwanth24/ecommerce-platform) — Full-stack platform with React, Node.js, MongoDB, Stripe
+- 🤖 **AI-Powered Document Q&A System** — FastAPI, pgvector, LangChain, Claude API, MCP, TypeScript, React. Production document Q&A platform with two-stage retrieval (pgvector ANN search + Voyage AI reranking), LangChain orchestration with MCP tool use, and real-time Claude API streaming via Server-Sent Events.
+
+## 🎓 Education
+**Master of Engineering in Computer Science** — University of Cincinnati *(Aug 2024 – May 2026)*
 
 ## 📫 Contact
 - Email: marrivishwanth24@gmail.com
+- Phone: +1 (513) 348-0777
+- Location: Dallas, TX
 - LinkedIn: [linkedin.com/in/vishwanthmarri](https://linkedin.com/in/vishwanthmarri)
