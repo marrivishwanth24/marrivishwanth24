@@ -43,4 +43,4 @@ Enhanced a multi-tenant client operations platform using the MERN stack. Built r
 - Email: marrivishwanth06@gmail.com
 - Phone: +1 (513) 348-0777
 - Location: Dallas, TX
-- LinkedIn: [linkedin.com/in/vishwanthmarri](https://linkedin.com/in/vishwanthmarri)
+- LinkedIn: [linkedin.com/in/vishwanthmarri](https://linkedin.com/in/vishwanthmarri/)
