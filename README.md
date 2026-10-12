@@ -3,7 +3,7 @@
 Software Engineer @ Salesforce | M.Eng. Computer Science @ University of Cincinnati (2024–2026)
 
 ## 🛠️ What I Build
-- **AI Agent Systems** — Production RAG pipelines using Claude API, LangChain, LangGraph, MCP, pgvector
+- **AI Agent Systems** — Production RAG and multi-step LangGraph agents using Claude API, LangChain, LangGraph, MCP, pgvector
 - **Full-Stack Web Apps** — React, Next.js, TypeScript, FastAPI, Node.js, Express.js
 - **Cloud Infrastructure** — AWS (EC2, S3, RDS, Lambda), Docker, Kubernetes, Terraform, CI/CD
 
@@ -12,9 +12,9 @@ Software Engineer @ Salesforce | M.Eng. Computer Science @ University of Cincinn
 
 **Frontend:** React.js · Next.js · Tailwind CSS · Component-Based Architecture
 
-**Backend:** FastAPI · Node.js · Express.js · REST APIs · GraphQL · OAuth 2.0 · JWT · Microservices
+**Backend:** FastAPI · Spring Boot · Node.js · Express.js · Kafka · REST APIs · OAuth 2.0 · JWT · Microservices
 
-**AI/Generative AI:** LLMs · Claude API · LangChain · LangGraph · Model Context Protocol (MCP) · RAG · Vector Search · AI Agents · Prompt Engineering
+**AI/Generative AI:** LLMs · Claude API · LangChain · LangGraph · Model Context Protocol (MCP) · RAG · Vector Search · AI Agents · Structured Outputs · Prompt Engineering
 
 **Databases:** PostgreSQL · MongoDB · MySQL · Redis · Elasticsearch · pgvector
 
@@ -34,7 +34,18 @@ Built internal data-validation tools with Node.js and FastAPI, reducing incorrec
 Enhanced a multi-tenant client operations platform using the MERN stack. Built resilient Node.js/Express.js backend services with structured error handling and async processing. Containerized services with Docker and automated AWS EC2 deployments via GitHub Actions, cutting release cycles by 35%. Optimized PostgreSQL performance through indexing, query optimization, and Redis caching.
 
 ## 📌 Featured Projects
-- 🤖 **AI-Powered Document Q&A System** — FastAPI, pgvector, LangChain, Claude API, MCP, TypeScript, React. Production document Q&A platform with two-stage retrieval (pgvector ANN search + Voyage AI reranking), LangChain orchestration with MCP tool use, and real-time Claude API streaming via Server-Sent Events.
+
+### 🤖 [AI-Powered Document Q&A System](https://github.com/marrivishwanth24/rag-agent-platform)
+`FastAPI` `pgvector` `LangGraph` `Claude API` `MCP` `TypeScript` `React`
+
+Production document Q&A platform with two-stage retrieval (pgvector ANN search + Voyage AI reranking). The retrieval agent is a **LangGraph state machine** that grades its own results and retries with a widened search when context looks insufficient, rather than returning a weak answer outright. Includes real agentic tool calling (session-safe by construction — the model can request a tool, but never supplies the session identifiers it would need to misuse it), an isolated **MCP server**, a Claude-to-OpenAI fallback for provider outages, and real-time streaming via Server-Sent Events.
+**[Live Demo →](https://rag-frontend-topaz.vercel.app)**
+
+### 🔍 [Lead Enrichment & Outreach Agent](https://github.com/marrivishwanth24/lead-enrichment-agent)
+`Python` `FastAPI` `LangGraph` `Claude API` `Structured Outputs` `Pytest`
+
+A multi-step LangGraph agent that researches a company, qualifies it against configurable criteria, and drafts personalized outreach — with an independent grading step that verifies every claim against its source before a human ever sees it, and **fails closed** on any verification error instead of silently auto-approving unverified output.
+**[Live Demo →](https://lead-enrichment-agent-production-7443.up.railway.app)**
 
 ## 🎓 Education
 **Master of Engineering in Computer Science** — University of Cincinnati *(Aug 2024 – May 2026)*
